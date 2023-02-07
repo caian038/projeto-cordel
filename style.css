@@ -1,0 +1,107 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+    --fonte1: 'Lobster', cursive;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: 'Verdana, Geneva, Tahoma, sans-serif;'
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    font-family: var(--fonte3);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 3.5em;
+}
+
+header p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+header p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header p a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: blue;
+    color: white;
+
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.651);
+    display: inline-block;
+    padding: 5px;
+}
+
+#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+#livros{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
